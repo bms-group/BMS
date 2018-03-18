@@ -61,13 +61,13 @@
 					title="部门" url="/sys/office/treeData?type=2" cssClass="required" notAllowSelectParent="true"/>
 			</div>
 		</div>
-		<div class="control-group">
+		<%--<div class="control-group">
 			<label class="control-label">工号:</label>
 			<div class="controls">
 				<form:input path="no" htmlEscape="false" maxlength="50" class="required"/>
 				<span class="help-inline"><font color="red">*</font> </span>
 			</div>
-		</div>
+		</div>--%>
 		<div class="control-group">
 			<label class="control-label">姓名:</label>
 			<div class="controls">
@@ -98,24 +98,24 @@
 				<c:if test="${empty user.id}"><span class="help-inline"><font color="red">*</font> </span></c:if>
 			</div>
 		</div>
-		<div class="control-group">
+		<%--<div class="control-group">
 			<label class="control-label">邮箱:</label>
 			<div class="controls">
 				<form:input path="email" htmlEscape="false" maxlength="100" class="email"/>
 			</div>
-		</div>
-		<div class="control-group">
+		</div>--%>
+		<%--<div class="control-group">
 			<label class="control-label">电话:</label>
 			<div class="controls">
 				<form:input path="phone" htmlEscape="false" maxlength="100"/>
 			</div>
-		</div>
-		<div class="control-group">
+		</div>--%>
+		<%--<div class="control-group">
 			<label class="control-label">手机:</label>
 			<div class="controls">
 				<form:input path="mobile" htmlEscape="false" maxlength="100"/>
 			</div>
-		</div>
+		</div>--%>
 		<div class="control-group">
 			<label class="control-label">是否允许登录:</label>
 			<div class="controls">
